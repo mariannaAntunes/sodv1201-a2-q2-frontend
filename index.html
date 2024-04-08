@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2-Q2</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <h1>BVC Sport Club</h1>
+    <h2>Registration Page</h2>
+    <!--This div is used to replace the content when the form is submitted to show confirmation notice-->
+    <div id="container">
+        <!--Adding form to the registration data-->
+        <form id="formEle">
+            <label>ID:</label>
+            <input type="text" name="id" placeholder="ID" required>
+            <label>Full Name:</label>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <label>Address:</label>
+            <input type="text" name="address" placeholder="Address" required>
+            <label>Select Status:</label>
+            <select name="status">
+                <option>Student</option>
+                <option>Staff</option>
+                <option>Volunteer</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
